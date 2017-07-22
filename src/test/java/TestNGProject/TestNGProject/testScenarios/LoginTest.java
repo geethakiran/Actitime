@@ -80,6 +80,8 @@ public class LoginTest
 	}
 
 
-
+public void test()
+{
+}
 
 }
