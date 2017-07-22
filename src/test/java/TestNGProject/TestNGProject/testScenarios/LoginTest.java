@@ -82,6 +82,8 @@ public class LoginTest
 	//sdfdsfdsf
 
 
-
+public void test()
+{
+}
 
 }
