@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTest suite" duration-ms="53966" started-at="2017-07-22T06:15:25Z" finished-at="2017-07-22T06:16:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53966" started-at="2017-07-22T06:15:25Z" finished-at="2017-07-22T06:16:19Z">
+      <class name="TestNGProject.TestNGProject.testScenarios.TimeTrackTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNGProject.TestNGProject.testScenarios.TimeTrackTest@7f63425a]" name="setUp" is-config="true" duration-ms="14732" started-at="2017-07-22T11:45:26Z" finished-at="2017-07-22T11:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestNGProject.TestNGProject.testScenarios.TimeTrackTest@7f63425a]" name="test2" duration-ms="38054" started-at="2017-07-22T11:45:40Z" description="create new task" finished-at="2017-07-22T11:46:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGProject.TestNGProject.testScenarios.TimeTrackTest@7f63425a]" name="tearDown" is-config="true" duration-ms="1138" started-at="2017-07-22T11:46:18Z" finished-at="2017-07-22T11:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGProject.TestNGProject.testScenarios.TimeTrackTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- SmokeTest suite -->
+</testng-results>
