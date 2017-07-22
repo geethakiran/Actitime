@@ -63,6 +63,21 @@ public class LoginTest
 		soft.assertTrue(d,"failed to display usename");
 		soft.assertAll();
 	}
+	
+	@Test(description="validat login page fleids visible")
+	public void test4()
+	{
+		LoginPage loginpage = new LoginPage(driver);
+		boolean a=loginpage.checkbox();
+		soft.assertTrue(a,"failed to display checkbox");
+		boolean b=loginpage.checkloginbutton();
+		soft.assertTrue(b,"failed to display login ");
+		boolean c=loginpage.checkpassword();
+		soft.assertTrue(c,"failed to display password");
+		boolean d=loginpage.checkusername();
+		soft.assertTrue(d,"failed to display usename");
+		soft.assertAll();
+	}
 
 
 
